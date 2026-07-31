@@ -8,6 +8,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+.workspace/
 dist
 dist-ssr
 .output
@@ -15,6 +16,14 @@ dist-ssr
 .tanstack/**
 .nitro
 *.local
+
+# Copias originales locales de vídeos ya optimizados para la web.
+src/assets/media/video-pedro.mp4
+src/assets/media/video-picada.mp4
+public/media/video-pedro.mp4
+public/media/video-picada.mp4
+public/media/WhatsApp Video 2026-07-27 at 13.49.08 video de pedro grabandome(se ve mal).mp4
+public/media/WhatsApp Video 2026-07-27 at 14.28.42 yo grabando solo carpa(se ve picada)aumentar donde el corcho la imagen  si se puede.mp4
 
 # Wrangler / Cloudflare
 .wrangler/

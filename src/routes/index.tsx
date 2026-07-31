@@ -40,8 +40,8 @@ const isSupabaseConfigured = Boolean(
 );
 import heroImg from "@/assets/hero.jpg";
 import videoCarpaRoyalNuevo from "@/assets/media/video-carpa-royal-nuevo.mp4";
-import videoPedro from "@/assets/media/video-pedro.mp4";
-import videoPicada from "@/assets/media/video-picada.mp4";
+import videoPedro from "@/assets/media/video-pedro-web.mp4";
+import videoPicada from "@/assets/media/video-picada-web.mp4";
 
 const FEATURED_PHOTOS = [
   { url: "/media/WhatsApp Image 2026-07-27 at 13.52.14.jpeg", caption: "Gran captura junto al río" },
