@@ -44,6 +44,16 @@ import videoPedro from "@/assets/media/video-pedro-web.mp4";
 import videoPicada from "@/assets/media/video-picada-web.mp4";
 
 const FEATURED_PHOTOS = [
+  { url: "/media/agosto-2026/captura-pdf-1.jpg", caption: "Nueva jornada de pesca junto al río" },
+  { url: "/media/agosto-2026/captura-pdf-2.jpg", caption: "Preparando la captura" },
+  { url: "/media/agosto-2026/captura-pdf-3.jpg", caption: "Carpa recién pescada" },
+  { url: "/media/agosto-2026/captura-pdf-4.jpg", caption: "Otra gran captura de la jornada" },
+  { url: "/media/agosto-2026/captura-pdf-5.jpg", caption: "Captura en la orilla" },
+  { url: "/media/agosto-2026/captura-03.jpg", caption: "Carpa capturada en una jornada soleada" },
+  { url: "/media/agosto-2026/captura-04.jpg", caption: "Nueva captura con Ángel" },
+  { url: "/media/agosto-2026/captura-05.jpg", caption: "Momento de pesca en el río" },
+  { url: "/media/agosto-2026/captura-06.jpg", caption: "Una gran carpa para el recuerdo" },
+  { url: "/media/agosto-2026/captura-07.jpg", caption: "Última captura de la galería" },
   { url: "/media/WhatsApp Image 2026-07-27 at 13.52.14.jpeg", caption: "Gran captura junto al río" },
   { url: "/media/WhatsApp Image 2026-07-27 at 13.47.21 (1).jpeg", caption: "Carpa en la red" },
   { url: "/media/WhatsApp Image 2026-07-27 at 13.47.21 (2).jpeg", caption: "Captura recién salida" },
