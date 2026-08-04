@@ -74,6 +74,7 @@ const EMAIL = "[email protected]";
 const INSTAGRAM = "https://www.instagram.com/angel.pardo/";
 const FACEBOOK = "https://www.facebook.com/angel.pardo.5815?locale=es_ES";
 const TIKTOK = "https://www.tiktok.com/@angel.pardo69";
+const RESTREAM_STUDIO = "https://app.restream.io/shows/10017993-740d-4a79-a80a-c6f7d2bb061c";
 const WA_URL = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(
   "¡Hola Ángel! Me gustaría reservar una jornada de pesca contigo.",
 )}`;
@@ -269,6 +270,13 @@ function Hero() {
             className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-6 py-3 font-semibold backdrop-blur transition-colors hover:bg-card"
           >
             Ver galería
+          </a>
+          <a
+            href="#directo"
+            className="inline-flex items-center gap-2 rounded-full border border-destructive/60 bg-destructive/15 px-6 py-3 font-semibold text-white backdrop-blur transition-colors hover:bg-destructive/25"
+          >
+            <Radio className="h-5 w-5" />
+            Directos y repeticiones
           </a>
         </div>
       </div>
@@ -976,6 +984,15 @@ function Live() {
 
         {isOwner && (
           <form onSubmit={startLive} className="mt-6 grid gap-2 md:grid-cols-[1fr_1fr_auto] border-t border-border pt-6">
+            <a
+              href={RESTREAM_STUDIO}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="md:col-span-3 inline-flex w-fit items-center gap-2 rounded-full border border-primary px-5 py-2.5 text-sm font-semibold text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
+            >
+              <Radio className="h-4 w-4" />
+              Abrir mi estudio de Restream
+            </a>
             <input
               value={url}
               onChange={(e) => setUrl(e.target.value)}
@@ -999,7 +1016,7 @@ function Live() {
             </button>
             {err && <p className="md:col-span-3 text-sm text-destructive">{err}</p>}
             <p className="md:col-span-3 text-xs text-muted-foreground">
-              Empieza el directo en tu app (Instagram Live, TikTok Live, YouTube, Facebook...), copia el enlace público y pégalo aquí. Aparecerá en la web con un aviso rojo para todos los visitantes.
+              Abre Restream, empieza la emisión y pega aquí el enlace público. Al terminar, pulsa «Finalizar y guardar vídeo» para subir la grabación; quedará guardada en esta web dentro de Repeticiones.
             </p>
           </form>
         )}
